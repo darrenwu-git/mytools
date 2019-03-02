@@ -9,3 +9,6 @@ sudo cp usr/bin/* /usr/bin/
 
 # dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > config/keybindings-translate.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < config/keybindings-translate.dconf
+
+# installing tmux plugin
+tools-script/tmux-plugin.sh
